@@ -1,0 +1,25 @@
+Familiar Blood Transfusion Analysis (Codeacademy Project)
+
+Introduction
+Welcome to Familiar, a startup in the blood transfusion market! As part of the data science team, your goal is to gain insights into subscribers’ lifespans and make data-driven decisions. In this project, we’ll focus on two subscription packages: the Vein Pack and the Artery Pack.
+
+Tasks
+1. Data Overview
+We start by examining the dataset containing lifespans for subscribers to both packages. The data has been loaded into a dataframe named lifespans. Let’s take a look at the first five rows to understand the information.
+
+2. Vein Pack Analysis
+Extract the lifespans of subscribers to the ‘vein’ pack and save them as vein_pack_lifespans.
+Calculate the average lifespan for Vein Pack subscribers using np.mean(). Is it longer than 73 years?
+3. Hypothesis Testing
+We want to determine if the average lifespan of a Vein Pack subscriber significantly differs from the average life expectancy of 73 years. Perform a hypothesis test with the following hypotheses:
+
+Null hypothesis: The average lifespan of a Vein Pack subscriber is 73 years.
+Alternative hypothesis: The average lifespan of a Vein Pack subscriber is NOT 73 years. Use a significance threshold of 0.05.
+4. Artery Pack Comparison
+Extract the lifespans of subscribers to the Artery Pack and save them as artery_pack_lifespans.
+Calculate the average lifespan for Artery Pack subscribers. Is it longer than for the Vein Pack?
+5. Hypothesis Testing (Vein vs. Artery)
+We’ll compare the average lifespan of Vein Pack subscribers to that of Artery Pack subscribers:
+
+Null hypothesis: The average lifespan of a Vein Pack subscriber is equal to the average lifespan of an Artery Pack subscriber.
+Alternative hypothesis: The average lifespan of a Vein Pack subscriber is NOT equal to the average lifespan of an Artery Pack subscriber. Use a significance threshold of 0.05.
